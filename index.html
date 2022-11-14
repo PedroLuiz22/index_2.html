@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e4248934b6.js" crossorigin="anonymous"></script>
+    <style>
+        #header{
+            background-color: rgb(53, 114, 114);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        #nameTitle{
+          background-color: white;  
+          width: 400px;
+          margin: 0 auto;
+        }
+        #nameTitle h1, h2{
+            margin: 0;
+        }
+        h1, h2, h3{
+            text-transform: uppercase;
+        }
+        #contact {list-style-type: none;}
+        #contact i {width: 30px;
+        color: rgb(53, 114, 114);
+        }
+        #container{
+                display: grid;
+                grid-template-columns:30% auto ;
+            }
+        #sidebar, #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nameTitle">
+           <h1>Pedro Luiz</h1>
+           <h2>desenvolvedor de Software</h2> 
+        </div>
+     </div>
+     <div id="container">
+        <div id="sidebar">
+            <div class="card">
+               <h3>Contato:</h3>
+               <ul id="contact">
+                    <li><i class="fa-regular fa-envelope"></i> pedrolluiz@hotmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> (83) 98757-0869</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Campina Grande - PB</li>
+               </ul> 
+          </div>                  
+        </div>
+     </div>
+        <div class="card">
+            <h3>skills:</h3>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Formação:</h3>
+            <ul>
+                <li>Analista de sistemas</li>
+                <li>Técnico em informática</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Links:</h3>
+            <ul>
+                <li><a target="_blank" href="https://www.linkedin.com/in/pedro-luiz-46b1551b4/">Linkedin</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="card">
+              <h3>Sobre mim</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum est sed mauris porta, non fermentum turpis laoreet. Phasellus sed sodales nisi. Cras viverra at orci vitae sagittis. Nullam viverra felis quis eleifend ornare. Nam sodales nibh non augue semper vulputate nec consectetur massa. Vivamus feugiat mollis neque, ut elementum justo scelerisque venenatis. Vivamus orci tellus, tincidunt maximus finibus in, semper et tortor. Fusce a tortor ac leo blandit faucibus. Pellentesque mattis purus vel consequat iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eget massa vel risus varius congue vel nec erat.  
+                </p>
+        </div>
+        </div>
+     <div class="card">
+        <h3>Experiências Profissionais:</h3>
+      <p>
+        <b>Americanas - dez/20 a fev/22</b><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum est sed mauris porta, non fermentum turpis laoreet. Phasellus sed sodales nisi. Cras viverra at orci vitae sagittis
+        <ul>
+           <li>Engenheiro de Software</li> 
+        </ul>
+      </p>
+     </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<h1>Meu formulário</h1>
+<form action="https://formspree.io/f/mpznkzrw" method="POST">
+    <label>Digite seu nome</label><br>
+    <input placeholder="Digite algo..." type="text" name="Nome">
+   <p> 
+     <label>Digite sua mensagem</label><br>
+     <textarea type="text" name="caixa_de_texto" placeholder="..."rows="10" cols="45"></textarea>
+   </p>
+   <p>
+   <label>Escolha uma das opções abaixo:</label><br> 
+   <ul>
+        <li><input value="hamburguer" name="ComidaFavorita" type="checkbox">hamburguer</li>
+        <li><input value="pizza" name="ComidaFavorita" type="checkbox">pizza</li>
+        <li><input value="sushi" name="ComidaFavorita" type="checkbox">sushi</li>
+   </ul>
+   </p>
+   <p>
+    <label>Escolha sua cidade</label><br>
+    <select>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+        <option>Salvador</option>
+    </select>
+   </p>
+   <p>
+    <label>Escolha uma das cores abaixo</label><br>
+        <ul>
+           <li><input type="radio" name="CorFavorita" value="azul">azul</li>
+           <li><input type="radio" name="CorFavorita" value="verde">verde</li>
+           <li><input type="radio" name="CorFavorita" value="rosa">rosa</li>
+        </ul>
+        <p>
+            <input  value="SIM" name="termosdocontrato" type="checkbox" required>Aceito os termos do contrato
+        </p>
+    
+   </p>
+    <button  type="submit">Enviar Dados</button>
+</form>

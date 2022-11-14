@@ -1,0 +1,24 @@
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.alldivs{
+    border: 1.7px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#div1{
+    background-color: darkslategray;
+    width: 300px;
+    height: 150px;
+}
+#div2{
+    background-color: aquamarine;
+    width: 400px;
+    height: 150px;
+}
+#div3{
+    background-color: coral;
+    width: 500px;
+    height: 150px;
+}
